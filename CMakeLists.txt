@@ -17,7 +17,7 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 # own library. The app links it, and so do the unit tests, which keeps Qt out
 # of the test build.
 add_library(game_rules STATIC
-  src/marble_game.cc
+  src/marble_game.cpp
   src/marble_game.h
   src/tic_tac_toe_game.cc
   src/tic_tac_toe_game.h
@@ -28,11 +28,11 @@ add_executable(marble_solitaire
   src/main.cc
   src/main_window.cc
   src/main_window.h
-  src/marble_board_widget.cc
+  src/marble_board_widget.cpp
   src/marble_board_widget.h
   src/tic_tac_toe_widget.cc
   src/tic_tac_toe_widget.h
-  src/resources.qrc
+  assets/assets.qrc
 )
 target_link_libraries(marble_solitaire PRIVATE
   game_rules
