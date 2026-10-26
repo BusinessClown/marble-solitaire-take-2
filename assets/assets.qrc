@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/assets">
+        <file>french.png</file>
+        <file>jcwiegleb.png</file>
+        <file>asymmetrical.png</file>
+        <file>english.png</file>
+        <file>diamond.png</file>
+        <file>triangle.png</file>
+        <file>marble_sprites.png</file>
+    </qresource>
+</RCC>
